@@ -40,7 +40,7 @@ align-items:center;
 }
 .img-row img{
 width:calc(50% - 7.5px);
-height:380px;
+height:260px;
 object-fit:cover;
 } </style>
 </head>
@@ -52,41 +52,41 @@ object-fit:cover;
   <p><b>Sunday:</b> I first reviewed the resources and dataset links provided by Christophe to understand the available museum collection datasets. I then explored several projects featured on WCMA, particularly the Pink Art project, and saw how students visualized and presented data in an interactive way. After getting inspiration from these examples, I decided to continue using Power BI for this week's work while also keeping in mind the feedback Mr. Christophe provided during Week 1. To begin the analysis, I selected the Cleveland Museum of Art dataset, as it was the most recently added and active dataset available for the project.</p>
   <p><b>Monday:</b> I decided to add Museum of Modern Art, right after that I cleaned both CMA and MoMA datasets to address inconsistencies in the data and make them suitable for comparison. I began to analyse both collections and observed several differences. CMA appears to have stronger representation from artists originating from the same countries or regions, whereas MoMA includes a broader range of nationalities. CMA also contains a larger number of artists overall, while MoMA's collection is comparatively smaller. In terms of artistic techniques, both museums show strong use of gelatin silver prints and lithographs, although the remaining techniques vary considerably between the two collections.</p>
     <div class="img-row">
-    <img src="week3Images/mon1.jpeg" alt="Image" height="380">
+    <img src="week3Images/mon1.jpeg" alt="Image" height="260">
   </div>
   <p><b>Tuesday:</b> I added Tate Gallery and The Metropolitan Museum of Art to the comparison and found that their datasets were much cleaner, with fewer data quality issues than CMA and MoMA. I then focused on creating timeline visualizations, which required additional data cleaning for CMA and MoMA because their date fields contained BCE/CE dates, date ranges, and text-based entries. For CMA, I used the earliest and latest creation dates to generate a single timeline year and grouped artworks into broader periods to make the visualizations easier to read. For MoMA, I created a Power Query formula to automatically extract valid years from inconsistent date formats and convert BCE dates into negative values. This allowed artworks from different historical periods to be displayed on a single chronological timeline without manually cleaning thousands of records. The resulting timeline visualizations made it much easier to compare how the collections are distributed across different time periods.</p>
   <div class="img-row">
-    <img src="week3Images/tues1.png" alt="Image" height="380">
+    <img src="week3Images/tues1.png" alt="Image" height="260">
   </div>
   <p><b>Wednesday:</b> I expanded the analysis by exploring and adding more focus on the collections, including the most represented departments and artists across the four museums. After building these visualizations and comparisons, I moved on to analyzing the overall findings from the data. These findings helped provide a clearer picture of how each museum differs in terms of collection scope and focus.</p>
   <h2>Findings:</h2>
   <a href="https://app.powerbi.com/links/BeU-Lh7d6T?ctid=5564f8ab-c589-4a4d-8c9e-1354800afc71&pbi_source=linkShare">PowerBI Collection Link</a>
   <div class="img-row">
-    <img src="week3Images/Artist Country.png" alt="Image" height="380">
+    <img src="week3Images/Artist Country.png" alt="Image" height="260">
   </div>
   <p>CMA appears to have the widest geographic distribution, with strong representation across Asia, Africa, Europe, and the Americas. While, MoMA and the Met show denser concentrations in Europe and North America, reflecting their stronger focus on modern Western art. Tate also demonstrates broad international coverage, having focus on Europe, America, and some parts of Asia.</p>
   <div class="img-row">
-    <img src="week3Images/Technique.png" alt="Image" height="380">
+    <img src="week3Images/Technique.png" alt="Image" height="260">
   </div>
   <p>Across all four museums, printmaking and paper-based techniques appear among the most common artistic methods. CMA and MoMA are dominated by gelatin silver prints, lithographs, and etchings, while the Met shows a stronger presence of materials such as terracotta and silk. Tate differs from the others, with graphite on paper being by far the most common medium, highlighting its large collection of drawings and works on paper. These differences suggest that each museum's collection reflects distinct collecting priorities and areas of specialization.</p>
   <div class="img-row">
-    <img src="week3Images/Artist presented.png" alt="Image" height="380">
+    <img src="week3Images/Artist presented.png" alt="Image" height="260">
   </div>
   <p>CMA is led by artists such as Edward S. Curtis, while Tate is represented by J. M. W. Turner. MoMA and the Met also contain many works attributed to unidentified, anonymous, or commercial creators, highlighting the diversity of contributors represented in their collections. Overall, the results suggest that each museum's collection reflects its unique collecting priorities and historical focus.</p>
   <div class="img-row">
-  <img src="week3Images/Collection.png" alt="Image" height="380">
+  <img src="week3Images/Collection.png" alt="Image" height="260">
   </div>
   <p>The collections show some clear differences in what each museum focuses on collecting. CMA and the Met have large numbers of prints, photographs, and drawings, while MoMA is heavily focused on photographs, prints, and design-related works. CMA also stands out for its strong representation of Asian, medieval, and decorative arts departments, reflecting its broader encyclopedic collection. Overall, the collections reveal different priorities, with some museums focusing on specific art forms while others aim to represent a wider range of cultures and object types.</p>
  <div class="img-row">
-  <img src="week3Images/Department.png" alt="Image" height="380">
+  <img src="week3Images/Department.png" alt="Image" height="260">
   </div>
   <p>Overall, prints, drawings, and photography are widely dominated on each museum shown. However, CMA has a much wider spread across departments such as Asian, Medieval, Egyptian, and Decorative Arts, reflecting its broader encyclopedic collection. In contrast, both MoMA and the Met are heavily dominated by Drawings & Prints, with Photography and Architecture & Design also making up significant portions of their collections. This suggests that while MoMA and the Met are more focused on particular collection areas, CMA aims to represent a wider range of cultures, historical periods, and artistic traditions.</p>
 <div class="img-row">
-  <img src="week3Images/Centuries.png" alt="Image" height="380">
+  <img src="week3Images/Centuries.png" alt="Image" height="260">
   </div>
   <p>The timeline shows that all four museums are most heavily represented by works from the 18th to 20th centuries, with the highest concentrations occurring in the 19th and 20th centuries. CMA has the broadest historical range, extending far into the BCE period, while MoMA, the Met, and Tate are much more concentrated on modern and contemporary works. Tate's collection is particularly centered around the late 18th and early 19th centuries, whereas MoMA peaks in the 20th century, reflecting its focus on modern art.</p>
 <div class="img-row">
-  <img src="week3Images/Acquired Year.png" alt="Image" height="380">
+  <img src="week3Images/Acquired Year.png" alt="Image" height="260">
   </div>
   <p>All four museums continue to acquire works, but their collections appear to have expanded most rapidly during a handful of significant periods. CMA shows relatively consistent acquisition activity across the 20th and 21st centuries, while MoMA experiences several noticeable spikes, particularly during the mid-1900s. The Met and Tate also displayed even larger peaks in specific years.</p>
   <h2>Conclusion:</h2>
