@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html><head><meta charset="UTF-8">
+<title>Week 7 Report</title>
+<style>
+body{
+  font-family:"Trebuchet MS",Arial,sans-serif;
+  background:linear-gradient(135deg,#fff3a3,#ffffff);
+  padding:30px;
+  line-height:1.7;
+  color:#333
+}
+
+.container{
+max-width:1000px;
+margin:auto;
+background:white;
+padding:30px;
+border-radius:12px;
+box-shadow:0 4px 12px rgba(0,0,0,.1)
+}
+
+img{
+max-width:100%;
+border-radius:8px;
+margin:10px auto;
+display:block;
+}
+
+.back{
+display:inline-block;
+margin-bottom:20px
+}
+
+.img-row{
+display:flex;
+gap:15px;
+justify-content:center;
+align-items:center;
+}
+.img-row img{
+width:calc(50% - 7.5px);
+height:300px;
+object-fit:cover;
+} </style>
+</head>
+<body>
+<div class="container">
+  <a class="back" href="index.html">← Back to Navigation</a>
+  <h1>Week 7: Great Mosque of Rome Immersive & Getty</h1>
+  <p><b>Sunday:</b>I created a new git repository for the quire project, and checked out Christophe's word file for the project description.</p>
+    <div class="img-row">
+  </div>
+  <p><b>Monday:</b>Otba and I went to the Great Mosque of Rome Immersive Experience. There were VR headsets available for visitors to experience the virtual reconstruction of the mosque. I would say it was a fascinating way to learn about the history and architecture of the site. Although I did feel some discomfort from the VR headset, as when the person moves, my body feels like slanting as well. However, it was an overall positive experience.</p>
+    <div class="img-row">
+    <img src="week7Images/mon1.jpeg" alt="Image" height="300">
+  </div>
+  
+  <p><b>Tuesday:</b> I first explored how Quire could support interactive questions and a drawing activity, then built a working mouse- and touch-friendly drawing canvas with a clear button for Catalogue 2. I updated the cover and added baghdadiat.jpg, then redesigned Catalogue 2 to follow your reference, with a news-style header, artwork and caption at the top, three columns underneath, and a blank “LOOK CLOSER” area. I also updated the artwork details, corrected the Arabic headline and centered it, and adjusted the entry layout and catalogue filter to support the new page. Changes include content/index.md, content/catalogue/2.md, custom.css, drawing-area.js, objects.yaml, figures.yaml, entry.liquid, and object-filters.webc. The production build and JavaScript lint checks passed. </p>
+  <div class="img-row">
+    <img src="week7Images/tues1.png" alt="Image" height="300">
+    <img src="week7Images/tues2.jpeg" alt="Image" height="300">
+  </div>
+</div></body></html>
