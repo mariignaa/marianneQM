@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Week 9 Report</title>
+<style>
+body{
+  font-family:"Trebuchet MS",Arial,sans-serif;
+  background:linear-gradient(135deg,#fff3a3,#ffffff);
+  padding:30px;
+  line-height:1.7;
+  color:#333
+}
+
+.container{
+max-width:1000px;
+margin:auto;
+background:white;
+padding:30px;
+border-radius:12px;
+box-shadow:0 4px 12px rgba(0,0,0,.1)
+}
+
+img{
+max-width:100%;
+border-radius:8px;
+margin:10px auto;
+display:block;
+}
+
+.back{
+display:inline-block;
+margin-bottom:20px
+}
+
+.img-row{
+display:flex;
+gap:15px;
+justify-content:center;
+align-items:center;
+}
+.img-row img{
+width:calc(50% - 7.5px);
+height:300px;
+object-fit:cover;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <a class="back" href="index.html">← Back to Navigation</a>
+
+  <h1>Week 9: Visitor Accounts, Admin Dashboard and Context Quiz</h1>
+
+  <p><b>Sunday:</b> I updated the kiosk landing page so the selected artwork fills the screen. I also made visitor accounts so people can save their scores. When account holders choose Play again, they go back to category selection; guests return to the landing page. I added an Exit button to log out, and after two minutes without activity the kiosk returns home and clears the active account. Results now show the average score for today’s accounts out of 12. I also changed the points system so quizzes one and two, and quizzes three and four, are handled as pairs. The second pair earns the average of its scores, rounded down, before the daily limit. Account names are now unique regardless of capitalisation, with a clear error in English or Arabic.</p>
+  <div class="img-row">
+    <img src="week9Images/sun1.jpeg" alt="Visitor account code screen">
+  </div>
+
+  <p><b>Monday:</b> I worked on the museum report and created an admin dashboard to track quiz plays, feedback and average scores. I added detailed pages showing anonymous first and second quiz scores, as well as how many visitors gave each feedback rating. I also added a compact statistics display for visitors and guests. The admin account is now saved locally, so it stays available after the app restarts. I changed the daily average score back to a scale of six and created the Context category questions in an Excel sheet.</p>
+  <div class="img-row">
+    <img src="week9Images/mon1.jpeg" alt="Visitor dashboard statistics">
+    <img src="week9Images/mon2.jpeg" alt="Anonymous first and second quiz score comparisons">
+  </div>
+  <div class="img-row">
+    <img src="week9Images/mon3.jpeg" alt="Context quiz questions in an Excel sheet">
+  </div>
+
+  <p><b>Tuesday:</b> I replaced the Origin category with Context, added 12 questions and updated the leaderboard and dashboard. I uploaded the images to the Raspberry Pi so they can be shown locally. I fixed inconsistent Year captions, changed the answer for Martyr’s Epic to “Martyrdom,” and replaced three damaged font files so the Pi displays the fonts used by Mathaf. I looked into an on-screen keyboard for entering names and codes, but it still needs testing. I also discussed the full quiz process with Otba to finalise it, then asked Iman to try the quiz and share her suggestions.</p>
+  <div class="img-row">
+    <img src="week9Images/tues1.jpeg" alt="Visitor sign-in and guest options">
+  </div>
+</div>
+</body>
+</html>
